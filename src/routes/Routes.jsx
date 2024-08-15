@@ -3,6 +3,7 @@ import MainLayout from "../layout/MainLayout";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import HomePage from "../pages/HomePage/HomePage.jsx/HomePage";
 import Products from "../pages/Products/Products/Products";
+import LoginPage from "../pages/LoginPage/LoginPage";
 
 export const router = createBrowserRouter([
   {
@@ -15,9 +16,14 @@ export const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: '/products',
+        path: "/products",
         element: <Products />,
+      },
+      {
+        path: "/login",
+        element: <LoginPage />,
       },
     ],
   },
+  
 ]);
