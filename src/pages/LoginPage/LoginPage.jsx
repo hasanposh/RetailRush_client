@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const LoginPage = () => {
   return (
-    <div className="relative flex items-center justify-center min-h-[calc(100vh-359px)] bg-center bg-cover bg-[url('https://images.pexels.com/photos/34577/pexels-photo.jpg')]">
+    <div className="relative flex  items-center justify-center min-h-[calc(100vh-359px)] bg-center bg-cover bg-[url('https://images.pexels.com/photos/34577/pexels-photo.jpg')]">
       <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div className="relative z-10 flex items-center justify-center h-full">
+      <div className="relative z-10 flex items-center justify-center flex-col  gap-3 h-full">
         <form className="max-w-sm mx-auto">
           <div className="mb-5">
             <label className="block mb-2 text-sm font-medium text-white dark:text-white">
@@ -35,6 +37,7 @@ const LoginPage = () => {
             Login
           </button>
         </form>
+        <h2 className="text-white">Dont have any account? <Link to={'/register'} className="hover:text-customBlue">Register</Link></h2>
       </div>
     </div>
   );
