@@ -16,8 +16,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className=" dark:bg-gray-900">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <nav className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="/RetailRushLogo.png"
@@ -156,8 +155,8 @@ const NavBar = () => {
             )}
           </ul>
         </div>
-      </div>
-    </nav>
+      </nav>
+
   );
 };
 
