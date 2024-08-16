@@ -5,6 +5,7 @@ import HomePage from "../pages/HomePage/HomePage.jsx/HomePage";
 import Products from "../pages/Products/Products/Products";
 import LoginPage from "../pages/LoginPage/LoginPage";
 import RegisterPage from "../pages/RegisterPage/RegisterPage";
+import PrivateRoutes from "./PrivateRouts";
 
 export const router = createBrowserRouter([
   {
@@ -18,7 +19,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/products",
-        element: <Products />,
+        element: (
+          <PrivateRoutes>
+            <Products />
+          </PrivateRoutes>
+        ),
       },
       {
         path: "/login",
