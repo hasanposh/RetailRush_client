@@ -1,0 +1,393 @@
+[
+    {
+      "productName": "Wireless Earbuds",
+      "brandName": "SoundTech",
+      "productImage": "https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg",
+      "description": "High-quality wireless earbuds with noise cancellation.",
+      "price": 99.99,
+      "category": "Electronics",
+      "ratings": 4.5,
+      "creationDate": "2024-08-17T10:00:00Z"
+    },
+    {
+      "productName": "Gaming Laptop",
+      "brandName": "TechCore",
+      "productImage": "https://images.pexels.com/photos/15393003/pexels-photo-15393003/free-photo-of-man-in-headphones-sitting-in-the-darkness-and-playing-a-car-racing-game-on-a-laptop.jpeg",
+      "description": "Powerful gaming laptop with high-end graphics.",
+      "price": 1299.99,
+      "category": "Computers",
+      "ratings": 4.8,
+      "creationDate": "2024-08-17T10:30:00Z"
+    },
+    {
+      "productName": "4K TV",
+      "brandName": "VisionPro",
+      "productImage": "https://images.pexels.com/photos/1444416/pexels-photo-1444416.jpeg",
+      "description": "Ultra HD 4K television with vibrant colors.",
+      "price": 499.99,
+      "category": "Electronics",
+      "ratings": 4.7,
+      "creationDate": "2024-08-17T11:00:00Z"
+    },
+    {
+      "productName": "Blender",
+      "brandName": "KitchenEase",
+      "productImage": "https://images.pexels.com/photos/8845082/pexels-photo-8845082.jpeg",
+      "description": "High-speed blender with multiple blending modes.",
+      "price": 89.99,
+      "category": "Kitchen Appliances",
+      "ratings": 4.5,
+      "creationDate": "2024-08-17T11:15:00Z"
+    },
+    {
+      "productName": "Smartwatch",
+      "brandName": "TimeTech",
+      "productImage": "https://images.pexels.com/photos/1334600/pexels-photo-1334600.jpeg",
+      "description": "Feature-packed smartwatch with heart rate monitoring.",
+      "price": 199.99,
+      "category": "Wearables",
+      "ratings": 4.6,
+      "creationDate": "2024-08-17T11:30:00Z"
+    },
+    {
+      "productName": "Bluetooth Speaker",
+      "brandName": "SoundTech",
+      "productImage": "https://images.pexels.com/photos/4171750/pexels-photo-4171750.jpeg",
+      "description": "Portable Bluetooth speaker with deep bass.",
+      "price": 49.99,
+      "category": "Electronics",
+      "ratings": 4.4,
+      "creationDate": "2024-08-17T12:00:00Z"
+    },
+    {
+      "productName": "Running Shoes",
+      "brandName": "FitPro",
+      "productImage": "https://images.pexels.com/photos/786003/pexels-photo-786003.jpeg",
+      "description": "Lightweight running shoes with superior grip.",
+      "price": 69.99,
+      "category": "Footwear",
+      "ratings": 4.5,
+      "creationDate": "2024-08-17T12:15:00Z"
+    },
+    {
+      "productName": "Yoga Mat",
+      "brandName": "FitPro",
+      "productImage": "https://images.pexels.com/photos/3951375/pexels-photo-3951375.jpeg",
+      "description": "Non-slip yoga mat with extra cushioning.",
+      "price": 29.99,
+      "category": "Fitness",
+      "ratings": 4.3,
+      "creationDate": "2024-08-17T12:30:00Z"
+    },
+    {
+      "productName": "Smart Home Hub",
+      "brandName": "HomeConnect",
+      "productImage": "https://images.pexels.com/photos/3755620/pexels-photo-3755620.jpeg",
+      "description": "Control all your smart home devices with ease.",
+      "price": 149.99,
+      "category": "Home Automation",
+      "ratings": 4.6,
+      "creationDate": "2024-08-17T13:00:00Z"
+    },
+    {
+      "productName": "Cordless Drill",
+      "brandName": "ToolMaster",
+      "productImage": "https://images.pexels.com/photos/5974033/pexels-photo-5974033.jpeg",
+      "description": "18V cordless drill with adjustable speed settings.",
+      "price": 79.99,
+      "category": "Tools",
+      "ratings": 4.5,
+      "creationDate": "2024-08-17T13:15:00Z"
+    },
+    {
+      "productName": "Air Purifier",
+      "brandName": "PureAir",
+      "productImage": "https://images.pexels.com/photos/16423103/pexels-photo-16423103/free-photo-of-smart-home-control.jpeg",
+      "description": "HEPA air purifier with quiet operation.",
+      "price": 129.99,
+      "category": "Home Appliances",
+      "ratings": 4.6,
+      "creationDate": "2024-08-17T13:30:00Z"
+    },
+    {
+      "productName": "Gaming Chair",
+      "brandName": "ProGamer",
+      "productImage": "https://images.pexels.com/photos/7858743/pexels-photo-7858743.jpeg",
+      "description": "Ergonomic gaming chair with adjustable armrests.",
+      "price": 179.99,
+      "category": "Furniture",
+      "ratings": 4.6,
+      "creationDate": "2024-08-17T14:00:00Z"
+    },
+    {
+      "productName": "Smart Refrigerator",
+      "brandName": "CoolTech",
+      "productImage": "https://images.pexels.com/photos/6508357/pexels-photo-6508357.jpeg",
+      "description": "Smart refrigerator with touch screen and voice control.",
+      "price": 1999.99,
+      "category": "Kitchen Appliances",
+      "ratings": 4.8,
+      "creationDate": "2024-08-17T14:30:00Z"
+    },
+    {
+      "productName": "Noise Machine",
+      "brandName": "SleepEase",
+      "productImage": "https://images.pexels.com/photos/3785927/pexels-photo-3785927.jpeg",
+      "description": "White noise machine with multiple sound options.",
+      "price": 49.99,
+      "category": "Home Appliances",
+      "ratings": 4.4,
+      "creationDate": "2024-08-17T15:00:00Z"
+    },
+    {
+      "productName": "Electric Scooter",
+      "brandName": "UrbanRide",
+      "productImage": "https://images.pexels.com/photos/14474990/pexels-photo-14474990.jpeg",
+      "description": "Foldable electric scooter with a top speed of 15 mph.",
+      "price": 399.99,
+      "category": "Transportation",
+      "ratings": 4.5,
+      "creationDate": "2024-08-17T15:30:00Z"
+    },
+    {
+      "productName": "Smart Light Bulb",
+      "brandName": "BrightHome",
+      "productImage": "https://images.pexels.com/photos/45072/pexels-photo-45072.jpeg",
+      "description": "Wi-Fi enabled smart light bulb with customizable colors.",
+      "price": 19.99,
+      "category": "Home Automation",
+      "ratings": 4.5,
+      "creationDate": "2024-08-17T16:00:00Z"
+    },
+    {
+      "productName": "Wireless Charger",
+      "brandName": "ChargeMax",
+      "productImage": "https://images.pexels.com/photos/15921116/pexels-photo-15921116/free-photo-of-top-view-of-an-iphone-lying-on-an-inductive-charger.jpeg",
+      "description": "Fast wireless charger compatible with all Qi-enabled devices.",
+      "price": 19.99,
+      "category": "Accessories",
+      "ratings": 4.4,
+      "creationDate": "2024-08-17T16:30:00Z"
+    },
+    {
+      "productName": "Instant Camera",
+      "brandName": "SnapShot",
+      "productImage": "https://images.pexels.com/photos/2983401/pexels-photo-2983401.jpeg",
+      "description": "Instant camera with retro design and built-in printer.",
+      "price": 89.99,
+      "category": "Cameras",
+      "ratings": 4.4,
+      "creationDate": "2024-08-17T17:00:00Z"
+    },
+    {
+      "productName": "Electric Bike",
+      "brandName": "EcoRide",
+      "productImage": "https://images.pexels.com/photos/15020749/pexels-photo-15020749/free-photo-of-black-electric-bike-on-tiled-floor.jpeg",
+      "description": "Electric bike with pedal-assist and long battery life.",
+      "price": 999.99,
+      "category": "Transportation",
+      "ratings": 4.7,
+      "creationDate": "2024-08-17T17:30:00Z"
+    },
+    {
+      "productName": "VR Headset",
+      "brandName": "VirtualView",
+      "productImage": "https://images.pexels.com/photos/3175979/pexels-photo-3175979.jpeg",
+      "description": "Immersive VR headset with a wide field of view.",
+      "price": 299.99,
+      "category": "Electronics",
+      "ratings": 4.7,
+      "creationDate": "2024-08-17T18:00:00Z"
+    },
+    {
+      "productName": "Home Security Camera",
+      "brandName": "SafeWatch",
+      "productImage": "https://images.pexels.com/photos/14292236/pexels-photo-14292236.jpeg",
+      "description": "Wi-Fi enabled home security camera with night vision.",
+      "price": 79.99,
+      "category": "Home Security",
+      "ratings": 4.5,
+      "creationDate": "2024-08-17T18:30:00Z"
+    },
+    {
+      "productName": "Electric Kettle",
+      "brandName": "KitchenEase",
+      "productImage": "https://images.pexels.com/photos/18071814/pexels-photo-18071814/free-photo-of-tea-and-coffeemaker.jpeg",
+      "description": "Fast-boiling electric kettle with temperature control.",
+      "price": 39.99,
+      "category": "Kitchen Appliances",
+      "ratings": 4.4,
+      "creationDate": "2024-08-17T19:00:00Z"
+    },
+    {
+      "productName": "Drone",
+      "brandName": "SkyCapture",
+      "productImage": "https://images.pexels.com/photos/1034812/pexels-photo-1034812.jpeg",
+      "description": "High-performance drone with 4K camera and GPS.",
+      "price": 499.99,
+      "category": "Cameras",
+      "ratings": 4.6,
+      "creationDate": "2024-08-17T19:30:00Z"
+    },
+    {
+      "productName": "Robot Vacuum",
+      "brandName": "CleanBot",
+      "productImage": "https://images.pexels.com/photos/4112723/pexels-photo-4112723.jpeg",
+      "description": "Smart robot vacuum with powerful suction and app control.",
+      "price": 299.99,
+      "category": "Home Appliances",
+      "ratings": 4.7,
+      "creationDate": "2024-08-17T20:00:00Z"
+    },
+    {
+      "productName": "Portable Power Bank",
+      "brandName": "ChargeMax",
+      "productImage": "https://images.pexels.com/photos/3921712/pexels-photo-3921712.jpeg",
+      "description": "High-capacity portable power bank with fast charging.",
+      "price": 49.99,
+      "category": "Accessories",
+      "ratings": 4.5,
+      "creationDate": "2024-08-17T20:30:00Z"
+    },
+    {
+      "productName": "Wireless Mouse",
+      "brandName": "TechCore",
+      "productImage": "https://images.pexels.com/photos/18295023/pexels-photo-18295023/free-photo-of-mouse-on-red-background.jpeg",
+      "description": "Ergonomic wireless mouse with long battery life.",
+      "price": 29.99,
+      "category": "Computers",
+      "ratings": 4.4,
+      "creationDate": "2024-08-17T21:00:00Z"
+    },
+    {
+      "productName": "Portable Air Conditioner",
+      "brandName": "CoolTech",
+      "productImage": "https://images.pexels.com/photos/20046692/pexels-photo-20046692/free-photo-of-air-conditioner-on-outside-wall.jpeg",
+      "description": "Compact portable air conditioner with remote control.",
+      "price": 299.99,
+      "category": "Home Appliances",
+      "ratings": 4.6,
+      "creationDate": "2024-08-17T21:30:00Z"
+    },
+    {
+      "productName": "Noise Cancelling Headphones",
+      "brandName": "SoundTech",
+      "productImage": "https://images.pexels.com/photos/5974009/pexels-photo-5974009.jpeg",
+      "description": "Over-ear noise-cancelling headphones with deep bass.",
+      "price": 149.99,
+      "category": "Electronics",
+      "ratings": 4.7,
+      "creationDate": "2024-08-17T22:00:00Z"
+    },
+    {
+      "productName": "Smart Thermostat",
+      "brandName": "HomeConnect",
+      "productImage": "https://images.pexels.com/photos/27662879/pexels-photo-27662879/free-photo-of-smart-home-devices-system-security-camera-automation.jpeg",
+      "description": "Smart thermostat with energy-saving features.",
+      "price": 199.99,
+      "category": "Home Automation",
+      "ratings": 4.6,
+      "creationDate": "2024-08-17T22:30:00Z"
+    },
+    {
+      "productName": "Electric Toothbrush",
+      "brandName": "CleanSmile",
+      "productImage": "https://images.pexels.com/photos/3654607/pexels-photo-3654607.jpeg",
+      "description": "Electric toothbrush with multiple brushing modes.",
+      "price": 59.99,
+      "category": "Personal Care",
+      "ratings": 4.5,
+      "creationDate": "2024-08-17T23:00:00Z"
+    },
+    {
+      "productName": "Wireless Gaming Controller",
+      "brandName": "ProGamer",
+      "productImage": "https://images.pexels.com/photos/4408312/pexels-photo-4408312.jpeg",
+      "description": "Wireless gaming controller with customizable buttons.",
+      "price": 59.99,
+      "category": "Gaming",
+      "ratings": 4.4,
+      "creationDate": "2024-08-17T23:30:00Z"
+    },
+    {
+      "productName": "Air Fryer",
+      "brandName": "KitchenEase",
+      "productImage": "https://images.pexels.com/photos/89238/pexels-photo-89238.png",
+      "description": "Healthy air fryer with digital touch screen.",
+      "price": 99.99,
+      "category": "Kitchen Appliances",
+      "ratings": 4.6,
+      "creationDate": "2024-08-18T00:00:00Z"
+    },
+    {
+      "productName": "Waterproof Action Camera",
+      "brandName": "SnapShot",
+      "productImage": "https://images.pexels.com/photos/690806/pexels-photo-690806.jpeg",
+      "description": "Waterproof action camera with 4K video recording.",
+      "price": 129.99,
+      "category": "Cameras",
+      "ratings": 4.5,
+      "creationDate": "2024-08-18T00:30:00Z"
+    },
+    {
+      "productName": "Laptop Stand",
+      "brandName": "TechCore",
+      "productImage": "https://images.pexels.com/photos/6045231/pexels-photo-6045231.jpeg",
+      "description": "Adjustable laptop stand with cooling fans.",
+      "price": 39.99,
+      "category": "Computers",
+      "ratings": 4.4,
+      "creationDate": "2024-08-18T01:00:00Z"
+    },
+    {
+      "productName": "Wireless Security Camera",
+      "brandName": "SafeWatch",
+      "productImage": "https://images.pexels.com/photos/4592239/pexels-photo-4592239.jpeg",
+      "description": "Battery-powered wireless security camera with motion detection.",
+      "price": 99.99,
+      "category": "Home Security",
+      "ratings": 4.5,
+      "creationDate": "2024-08-18T01:30:00Z"
+    },
+    {
+      "productName": "Cordless Hair Trimmer",
+      "brandName": "CleanCut",
+      "productImage": "https://images.pexels.com/photos/8867401/pexels-photo-8867401.jpeg",
+      "description": "Cordless hair trimmer with precision blades.",
+      "price": 49.99,
+      "category": "Personal Care",
+      "ratings": 4.4,
+      "creationDate": "2024-08-18T02:00:00Z"
+    },
+    {
+      "productName": "Smart Doorbell",
+      "brandName": "HomeConnect",
+      "productImage": "https://images.pexels.com/photos/4604662/pexels-photo-4604662.jpeg",
+      "description": "Wi-Fi smart doorbell with HD video and two-way audio.",
+      "price": 129.99,
+      "category": "Home Security",
+      "ratings": 4.6,
+      "creationDate": "2024-08-18T02:30:00Z"
+    },
+    {
+      "productName": "Smart Plug",
+      "brandName": "BrightHome",
+      "productImage": "https://images.pexels.com/photos/4148576/pexels-photo-4148576.jpeg",
+      "description": "Wi-Fi smart plug with voice control and energy monitoring.",
+      "price": 24.99,
+      "category": "Home Automation",
+      "ratings": 4.5,
+      "creationDate": "2024-08-18T03:00:00Z"
+    },
+    {
+      "productName": "Electric Grill",
+      "brandName": "KitchenEase",
+      "productImage": "https://images.pexels.com/photos/4940617/pexels-photo-4940617.jpeg",
+      "description": "Indoor electric grill with non-stick surface.",
+      "price": 79.99,
+      "category": "Kitchen Appliances",
+      "ratings": 4.5,
+      "creationDate": "2024-08-18T03:30:00Z"
+    }
+  ]
+  
