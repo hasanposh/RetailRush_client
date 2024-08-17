@@ -1,19 +1,37 @@
-const ProductCard = () => {
+const ProductCard = ({ product }) => {
+  const {
+    productName,
+    brandName,
+    productImage,
+    description,
+    price,
+    category,
+    ratings,
+    creationDate,
+  } = product;
   return (
     <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
         <img
-          className="p-8 rounded-t-lg"
-          src="/docs/images/products/apple-watch.png"
+          className=" rounded-t-lg"
+          src={productImage}
           alt="product image"
         />
       </a>
       <div className="px-5 pb-5">
         <a href="#">
           <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-            Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
+            {productName}
           </h5>
         </a>
+        <a href="#">
+          <h5 className="text-base font-semibold tracking-tight text-customBlue dark:text-white">
+            {brandName}
+          </h5>
+        </a>
+          <h5 className="text-sm font-semibold tracking-tight dark:text-white">
+            {description}
+          </h5>
         <div className="flex items-center mt-2.5 mb-5">
           <div className="flex items-center space-x-1 rtl:space-x-reverse">
             <svg
@@ -63,12 +81,12 @@ const ProductCard = () => {
             </svg>
           </div>
           <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">
-            5.0
+           {ratings}
           </span>
         </div>
         <div className="flex items-center justify-between">
           <span className="text-3xl font-bold text-gray-900 dark:text-white">
-            $599
+            ${price}
           </span>
           <a
             href="#"
