@@ -10,13 +10,35 @@ const Products = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
   const [searchTerm, setSearchTerm] = useState("");
+  const [minPrice, setMinPrice] = useState(null);
+  const [maxPrice, setMaxPrice] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedBrand, setSelectedBrand] = useState("");
+  const [selectedDateSort, setSelectedDateSort] = useState("");
+  const [selectedPriceSort, setSelectedPriceSort] = useState("");
 
-  const fetchProducts = async (page = 1, search = "") => {
+  const fetchProducts = async (
+    page = 1,
+    search = "",
+    minPrice,
+    maxPrice,
+    category,
+    brand,
+    sort
+  ) => {
     try {
       const response = await axios.get(
         `${import.meta.env.VITE_API_URL}/products`,
         {
-          params: { page, search },
+          params: {
+            page,
+            search,
+            minPrice: minPrice || undefined,
+            maxPrice: maxPrice || undefined,
+            category,
+            brand,
+            sort,
+          },
         }
       );
       setProducts(response.data.products);
@@ -28,10 +50,10 @@ const Products = () => {
   };
 
   useEffect(() => {
-    fetchProducts();
+    fetchProducts(currentPage, searchTerm, minPrice, maxPrice);
   }, []);
 
-  console.log(products);
+  // console.log(products);
 
   const handleSearch = () => {
     fetchProducts(1, searchTerm);
@@ -39,20 +61,104 @@ const Products = () => {
 
   const handlePageChange = (page) => {
     if (page > 0 && page <= totalPages) {
-      fetchProducts(page, searchTerm);
+      fetchProducts(
+        page,
+        searchTerm,
+        minPrice,
+        maxPrice,
+        selectedCategory,
+        selectedBrand,
+        selectedDateSort || selectedPriceSort
+      );
     }
   };
 
   const handleReset = () => {
+    // Clear input fields manually if needed
+    const priceForm = document.querySelector("form");
+    if (priceForm) {
+      priceForm.reset();
+    }
     setSearchTerm("");
     setCurrentPage(1);
     fetchProducts(); // Fetch default products list
   };
 
+  const handlePriceRange = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const minPriceValue = form.minPrice.value;
+    const maxPriceValue = form.maxPrice.value;
+    setMinPrice(minPriceValue);
+    setMaxPrice(maxPriceValue);
+    fetchProducts(1, searchTerm, minPriceValue, maxPriceValue);
+  };
+
+  const handleCategoryChange = (e) => {
+    const selectedValue = e.target.value;
+    setSelectedCategory(selectedValue);
+    fetchProducts(1, searchTerm, minPrice, maxPrice, selectedValue);
+    // console.log("Selected Category:", selectedValue);
+  };
+
+  const handleBrandChange = (e) => {
+    const selectedValue = e.target.value;
+    setSelectedBrand(selectedValue);
+    fetchProducts(
+      1,
+      searchTerm,
+      minPrice,
+      maxPrice,
+      selectedCategory,
+      selectedValue
+    );
+    console.log("Selected brand:", selectedValue);
+  };
+  const handleDateSort = (e) => {
+    const selectedValue = e.target.value;
+    setSelectedDateSort(selectedValue);
+    fetchProducts(
+      1,
+      searchTerm,
+      minPrice,
+      maxPrice,
+      selectedCategory,
+      selectedBrand,
+      selectedValue
+    );
+    console.log(" setSelectedDateSort:", selectedValue);
+  };
+
+  const handlePriceSort = (e) => {
+    const selectedValue = e.target.value;
+    setSelectedPriceSort(selectedValue);
+    fetchProducts(
+      1,
+      searchTerm,
+      minPrice,
+      maxPrice,
+      selectedCategory,
+      selectedBrand,
+      selectedDateSort || selectedValue
+    );
+  };
+
   // console.log(searchTerm)
   return (
-    <div className="flex flex-col md:flex-row p-4 gap-4">
-      <SideBar handleReset={handleReset} products={products} />
+    <div className="flex flex-col md:flex-row p-4 gap-4 min-h-[calc(100vh-341px)]">
+      <SideBar
+        handleReset={handleReset}
+        products={products}
+        handlePriceRange={handlePriceRange}
+        handleCategoryChange={handleCategoryChange}
+        selectedCategory={selectedCategory}
+        handleBrandChange={handleBrandChange}
+        selectedBrand={selectedBrand}
+        handleDateSort={handleDateSort}
+        selectedDateSort={selectedDateSort}
+        handlePriceSort={handlePriceSort}
+        selectedPriceSort={selectedPriceSort}
+      />
       <div className="space-y-4">
         <div className="relative w-full max-w-xl mx-auto bg-white rounded-full">
           <input
